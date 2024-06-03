@@ -474,13 +474,13 @@ List colorList=[
   Colors.teal.shade300,
   Colors.orange.shade100,
   Colors.green.shade300,
-  Colors.white,
+  Colors.lightGreen,
   Colors.blueAccent,
   Colors.blue.shade300,
   Colors.teal.shade300,
   Colors.orange.shade100,
   Colors.green.shade300,
-  Colors.white,
+  Colors.lightGreen,
   Colors.blueAccent,
 
 

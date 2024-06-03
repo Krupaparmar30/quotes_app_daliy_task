@@ -22,38 +22,52 @@ class _homePageState extends State<homePage> {
   }
 
   Widget build(BuildContext context) {
-    return Scaffold(
+    return SafeArea(
+      child: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text('Quotes App'),
+          leading: Icon(Icons.menu),
+          elevation: 14,
+        backgroundColor: Colors.white,
+        ),
+      
+         body: SingleChildScrollView(
+      
+       scrollDirection: Axis.vertical,
+       child: Column(
 
-   body: SingleChildScrollView(
-
-     scrollDirection: Axis.vertical,
-     child: Column(
-
-       children: List.generate(quoteModel!.quoteModelList.length, (index) =>Card(
-         color: colorList[index%colorList.length],
-         child: ListTile(
-           title: Text(quoteModel!.quoteModelList[index].quote!),
-           subtitle: Text(quoteModel!.quoteModelList[index].author!),
+         children:[
+           SizedBox(
+             height: 10,
+           ),
+           ... List.generate(quoteModel!.quoteModelList.length, (index) =>Card(
+             color: colorList[index%colorList.length],
+             child: ListTile(
+               title: Text(quoteModel!.quoteModelList[index].quote!),
+               subtitle: Text(quoteModel!.quoteModelList[index].author!),
+             ),
+           ) ),
+         ]
+       ),
          ),
-       ) ),
-     ),
-   ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Random random=Random();
-          int x=random.nextInt(quoteModel!.quoteModelList.length);
-          showDialog(context: context, builder: (context) => AlertDialog(
-            backgroundColor: colorList[x % colorList.length],
-            title: Text(quoteModel!.quoteModelList[x].author!),
-            content: Text(quoteModel!.quoteModelList[x].quote!),
-
-          ),);
-
-        },child: Icon(
-        Icons.next_plan_outlined
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            Random random=Random();
+            int x=random.nextInt(quoteModel!.quoteModelList.length);
+            showDialog(context: context, builder: (context) => AlertDialog(
+              backgroundColor: colorList[x % colorList.length],
+              title: Text(quoteModel!.quoteModelList[x].quote!),
+              content: Text(quoteModel!.quoteModelList[x].author!),
+      
+            ),);
+      
+          },child: Icon(
+          Icons.next_plan_outlined
+        ),
+        ),
+      
       ),
-      ),
-
     );
   }
 }
