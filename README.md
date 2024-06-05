@@ -27,3 +27,7 @@ https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/69094fc4
   
 </p>
 
+https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/b68a4f39-49f7-4469-9218-c1fd09bc4d75
+
+
+
