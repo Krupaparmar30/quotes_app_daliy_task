@@ -17,13 +17,12 @@ https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/69094fc4
 
 # Bhagvat_Gita_Summry
 <p>
-   <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/c0c06d18-3c50-4f4a-816a-1c1e8b0711ea"width=28% height=35%>
+  <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/c0c06d18-3c50-4f4a-816a-1c1e8b0711ea"width=28% height=35%>
   <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/54544533-fa0f-4955-961b-0de7b06a19ba"width=28% height=35%>
-    <img src="  https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/99cb7217-1a3c-4b98-a35c-22441739b6ce"width=28% height=35%>
-<img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/eb937898-2d24-49e5-af37-4b88a9f24a5d"width=28% height=35%>
-<img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/a4d86c27-7135-4d8f-8c18-2b7fcb6088d9"width=28% height=35%>
-<img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/d0227020-3a61-44e2-b3eb-31d82f96ddc0
-"width=28% height=35%>
+  <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/99cb7217-1a3c-4b98-a35c-22441739b6ce"width=28% height=35%>
+  <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/eb937898-2d24-49e5-af37-4b88a9f24a5d"width=28% height=35%>
+  <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/a4d86c27-7135-4d8f-8c18-2b7fcb6088d9"width=28% height=35%>
+  <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/d0227020-3a61-44e2-b3eb-31d82f96ddc0"width=28% height=35%>
 
   
 </p>
