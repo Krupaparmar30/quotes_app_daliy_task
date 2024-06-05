@@ -15,7 +15,7 @@ video
 
 https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/69094fc4-ca5d-4bb4-ac33-0dc798677860
 
-# Bhagvat_Gita_Summry
+# Toggal_View_Bhagvat_Gita_Summry
 <p>
   <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/c0c06d18-3c50-4f4a-816a-1c1e8b0711ea"width=28% height=35%>
   <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/54544533-fa0f-4955-961b-0de7b06a19ba"width=28% height=35%>
