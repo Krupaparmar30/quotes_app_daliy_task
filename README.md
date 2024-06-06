@@ -11,7 +11,7 @@ A factory constructor in Flutter is a special type of constructor that doesn't a
 ->The factory keyword in Dart is used to define a factory constructor.
 
 * Syntex:
-```
+```javascript
     class ClassName {
 
     //default factory constructor
@@ -30,7 +30,7 @@ A factory constructor in Flutter is a special type of constructor that doesn't a
 }
 ```
 * Example:
-```
+```javascript
 import 'dart:io';
 
 import 'factroy.dart';
@@ -109,7 +109,7 @@ The modal class is the class with the highest frequency.
 ->That means, the class that has the highest frequency is the modal class of the grouped data.
 
 * Example:
-```
+```javascript
     import 'dart:io';
 
     class StudentModel{
