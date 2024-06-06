@@ -1,5 +1,135 @@
 # quotes_app_daliy_task
 
+
+# # What is Factory Constructor ?
+
+->
+A factory constructor in Flutter is a special type of constructor that doesn't always create a new instance of its class.
+
+->Instead, it may return an existing instance or even an instance of a different class.
+
+->The factory keyword in Dart is used to define a factory constructor.
+
+* Syntex:
+```
+    class ClassName {
+
+    //default factory constructor
+
+    factory ClassName() {
+
+    // TODO: return ClassName instance
+    }
+
+    //named factory constuctor
+
+    factory ClassName.namedConstructor() {
+
+    // TODO: return ClassName instance
+    }
+}
+```
+* Example:
+```
+import 'dart:io';
+
+import 'factroy.dart';
+
+// import '../factory/sudent.dart';
+
+
+class Student{
+  late String name,course;
+  late int roll_number;
+
+  Student({required this.name,required this.roll_number,required this.course});
+
+
+ 
+}
+List Studentlist1=[
+    { 'name':'aarti', 'roll_number':1, 'course':'Flutter'},
+    {'name': 'pooja','roll_number':2, 'course':'Full Steck'},
+    {'name':'sheha','roll_number':3,'course':'UI - UX degain'},
+    {'name':'krupa','roll_number':4,'course':'Flutter'},
+    {'name':'jinal','roll_number':5,'course':'Full Steck'},
+    { 'name':'aarti','roll_number':1,'course':'Flutter'},
+    {'name':'pooja','roll_number':2,'course':'Full Steck'},
+    {'name':'sheha','roll_number':3,'course':'UI - UX degain'},
+    {'name':'krupa','roll_number':4,'course':'Flutter'},
+    {'name':'jinal','roll_number':5,'course':'Full Steck'},
+    { 'name':'aarti','roll_number':1,'course':'Flutter'},
+    {'name':'pooja','roll_number':2,'course':'Full Steck'},
+    {'name':'sheha','roll_number':3,'course':'UI - UX degain'},
+    {'name':'krupa','roll_number':4,'course':'Flutter'},
+    {'name':'jinal','roll_number':5,'course':'Full Steck'},
+    { 'name':'aarti','roll_number':1,'course':'Flutter'},
+    {'name':'pooja','roll_number':2,'course':'Full Steck'},
+    {'name':'sheha','roll_number':3,'course':'UI - UX degain'},
+    {'name':'krupa','roll_number':4,'course':'Flutter'},
+    {'name':'jinal','roll_number':5,'course':'Full Steck'},
+    { 'name':'aarti','roll_number':1,'course':'Flutter'},
+    {'name':'pooja','roll_number':2,'course':'Full Steck'},
+    {'name':'sheha','roll_number':3,'course':'UI - UX degain'},
+    {'name':'krupa','roll_number':4,'course':'Flutter'},
+    {'name':'jinal','roll_number':5,'course':'Full Steck'},
+    { 'name':'aarti','roll_number':1,'course':'Flutter'},
+    {'name':'pooja','roll_number':2,'course':'Full Steck'},
+    {'name':'sheha','roll_number':3,'course':'UI - UX degain'},
+    {'name':'krupa','roll_number':4,'course':'Flutter'},
+    {'name':'jinal','roll_number':5,'course':'Full Steck'},
+    
+];
+List<StudentModel>Studentlist2=[];
+void main()
+{
+  int i,j;
+  for(i=0;i<Studentlist1.length;i++)
+  {
+    StudentModel s1=StudentModel.fromStudent(Student: Studentlist1[i]);
+    Studentlist2.add(s1);
+ 
+  }
+  for(int i=0;i<Studentlist2.length;i++)
+  {
+    print('name=${Studentlist2[i].name}'+'roll_number=${Studentlist2[i].roll_number}'+'course=${Studentlist2[i].course}');
+  }
+}
+```
+# What is Model Class?
+
+->
+
+The modal class is the class with the highest frequency. 
+
+->We know that the mode is the number or observation that most often appears.
+
+-> So, the modal class is the class in a grouped data that contains the mode.
+
+->That means, the class that has the highest frequency is the modal class of the grouped data.
+
+* Example:
+```
+    import 'dart:io';
+
+    class StudentModel{
+
+      String? name,course;
+      
+      int ?roll_number;
+
+    StudentModel({required this.name,required this.roll_number,required this.course});
+
+    factory StudentModel.fromStudent(
+      {required Map Student})
+    {
+
+      
+    return StudentModel(name: Student['name'],roll_number: Student['roll_number'],course: Student['course']);
+    }
+    
+ }
+```
 # Quotes_App
 <p>
   <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/5b8f2746-46bc-4d9a-b9bf-a88ec82590ca"width=28% height=35%>
