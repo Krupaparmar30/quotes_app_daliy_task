@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class dialogPage extends StatefulWidget {
@@ -82,7 +83,75 @@ class _dialogPageState extends State<dialogPage> {
             );
 
           }, child: Text('AlertDialog Box')),
+          ElevatedButton(
+              child: Text("CupertinoAlertDialog-1"),
+              onPressed:(){
+                showDialog(context: context, builder: (BuildContext context){
+                  return CupertinoAlertDialog(
+                    title: Text("Success"),
+                    actions: [
+                      CupertinoDialogAction(onPressed: (){
+                        Navigator.of(context).pop();
+                      }, child: Text("Back")),
+                      CupertinoDialogAction(onPressed: (){
+                        Navigator.of(context).pop();
+                      }, child: Text("Next")),
+                    ],
 
+                    content: Text("Saved successfully file"),
+                  );
+                });
+              }
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          ElevatedButton(
+              child: Text("CupertinoAlertDialog-2"),
+              onPressed:(){
+                showDialog(context: context, builder: (BuildContext context){
+                  return CupertinoAlertDialog(
+                    title: Text("Success"),
+                    actions: [
+                      CupertinoDialogAction(onPressed: (){
+                        Navigator.of(context).pop();
+                      }, child: Text("Back")),
+                      CupertinoDialogAction(onPressed: (){
+                        Navigator.of(context).pop();
+                      }, child: Text("Next")),
+                      CupertinoDialogAction(onPressed: (){
+                        Navigator.of(context).pop();
+                      }, child: Text("Save")),
+
+                    ],
+
+                    content: Text("Saved successfully file"),
+                  );
+                });
+              }
+          ),
+          SizedBox(
+            height: 20,
+          ),
+ElevatedButton(onPressed: () {
+  showDialog(context: context, builder:(BuildContext context){
+    return Dialog.fullscreen(
+      child: Center(
+        child: Container(
+          height: 200,
+          child: Column(
+            children: [
+              FlutterLogo(size: 100,),
+
+            ],
+          ),
+        ),
+      ),
+    );
+  },
+  );
+
+}, child: Text('Full Page'))
           // ElevatedButton(onPressed: () {
           //   showDialog(context: context, builder: (context) {
           //     return Custom(
