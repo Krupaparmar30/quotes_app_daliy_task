@@ -130,6 +130,18 @@ The modal class is the class with the highest frequency.
     
  }
 ```
+# Diaog Box
+<p>
+    <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/aafc3016-62d3-4544-ba2d-4c48c756bdeb"width=28% height=35%>
+    <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/1399e852-0ef0-4f9f-80c3-44e2bc7a2c05"width=28% height=35%>
+       <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/6237b8b0-800f-4647-b78b-4e9d99787e0f"width=28% height=35%>
+          <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/e76239e3-8595-4856-8cfe-4c81ead5e30d"width=28% height=35%>
+             <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/33432488-8fd7-4112-a203-faf0f6a7ea24"width=28% height=35%>
+                <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/b447d6dc-c8ed-4226-8aba-aee2c74a4d4f"width=28% height=35%>
+
+</p>
+
+
 # Quotes_App
 <p>
   <img src="https://github.com/Krupaparmar30/quotes_app_daliy_task/assets/149374671/5b8f2746-46bc-4d9a-b9bf-a88ec82590ca"width=28% height=35%>
